@@ -1,0 +1,5 @@
+anymarkup (0.8.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #994458)
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Thu, 16 Sep 2021 14:12:49 +0200

@@ -1,0 +1,29 @@
+Source: anymarkup
+Section: python
+Priority: optional
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-anymarkup-core,
+               python3-click,
+               python3-configobj,
+               python3-json5,
+               python3-pytest,
+               python3-setuptools,
+               python3-toml,
+               python3-xmltodict,
+               python3-yaml
+Standards-Version: 4.5.1
+Homepage: https://github.com/bkabrda/anymarkup
+Vcs-Browser: https://salsa.debian.org/debian/anymarkup
+Vcs-Git: https://salsa.debian.org/debian/anymarkup.git
+
+Package: python3-anymarkup
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Recommends: ${python3:Recommends}
+Suggests: ${python3:Suggests}
+Description: Parse or serialize any markup format in Python
+ Parse or serialize any markup. Currently supports INI, JSON,
+ JSON5, TOML, XML and YAML.
